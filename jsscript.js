@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Lista de archivos HTML con los productos
     let productos = [
-    "ropa.html", 
+    "/ropa.html", 
     "martillo.html", 
     "productos/cuchara.html", 
     "productos/comida.html"];
