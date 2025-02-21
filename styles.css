@@ -1,0 +1,98 @@
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 70px; /* Ajuste para evitar que el buscador cubra contenido */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        /* Barra de búsqueda fija en la parte superior */
+        .search-bar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: white;
+            padding: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Estilos para el input de búsqueda */
+        .search-bar input {
+            width: 90%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Contenedor de cada producto */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para el logo de la tienda en la parte superior derecha */
+        .store-logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Posición del icono de WhatsApp debajo del logo */
+        .whatsapp {
+            position: absolute;
+            top: 55px;
+            right: 10px;
+        }
+
+        /* Estilo del icono de WhatsApp */
+        .whatsapp img {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Estilos para la imagen del producto */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Clase para sombrear la imagen seleccionada...*/
+        .highlighted {
+            filter: drop-shadow(0px 0px 15px purple);
+        }
+        
+
+        /* Margen superior para la descripción del producto */
+        .description {
+            margin-top: 15px;
+        }
+
+        /* Ajustes para pantallas grandes */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 800px;
+            }
+        }
