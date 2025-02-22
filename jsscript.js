@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     let productosContainer = document.getElementById("productos-container");
 
-    // Lista de archivos HTML con los productos
+    //ruta dentro de las comillas de los archivos HTML Lista de archivos HTML con los productos
     let productos = [
-    "/ropa.html", 
+    "ropa.html", 
     "martillo.html", 
-    "productos/cuchara.html", 
-    "productos/comida.html"];
+    "cuchara.html", 
+    "comida.html"];
 
     // Cargar cada archivo y agregarlo al contenedor
     productos.forEach(producto => {
