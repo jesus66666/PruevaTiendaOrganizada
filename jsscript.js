@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //ruta dentro de las comillas de los archivos HTML Lista de archivos HTML con los productos
     let productos = [
-    "ropa.html", 
+    "sombrero.html", 
     "martillo.html", 
     "cuchara.html", 
     "comida.html"];
